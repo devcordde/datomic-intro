@@ -8,6 +8,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Go to slides
+        run: cd slides
       - name: Install dependencies
         run: npm install
       - name: Install slidev
