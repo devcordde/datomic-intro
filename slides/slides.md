@@ -304,22 +304,22 @@ h2 {
 
 .label {
   position: absolute;
-  top: 6.3em;
+  top: 195px;
   @apply text-3xl;
 }
 
 .label-1 {
-  left: 7.5em;
+  left: 235px;
   @apply text-red-600;
 }
 
 .label-2 {
-  left: 11.5em;
+  left: 370px;
   @apply text-green-600;
 }
 
 .label-3 {
-  left: 16em;
+  left: 525px;
   @apply text-blue-600;
 }
 
@@ -407,7 +407,7 @@ code {
 
 <v-click>
 
-<arrow x1="290" y1="215" x2="120" y2="250" width="2" color="#3F3F46" />
+<arrow x1="305" y1="215" x2="125" y2="248" width="2" />
 
 </v-click>
 
@@ -422,15 +422,15 @@ code {
 
 .bracket {
   position: absolute;
-  top: 6.5em;
-  left: 8.5em;
+  top: 390px;
+  left: 535px;
   @apply text-6xl;
 }
 
 .label {
   position: absolute;
-  top: 13.5em;
-  left: 18em;
+  top: 405px;
+  left: 565px;
   @apply text-3xl;
 }
 </style>
