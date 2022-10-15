@@ -226,6 +226,12 @@ var age2 = Datahike.q(findJaneDoesAgeQuery, db1); // immer noch 25
 
 ---
 
+<style>
+code {
+  font-size: 1.5em;
+}
+</style>
+
 # Die Fakten-Datenbank
 
 
