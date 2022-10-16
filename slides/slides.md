@@ -179,9 +179,17 @@ layout: full
 
 ---
 
+<style>
+img {
+  max-height: 90%;
+  width: auto;
+  margin: auto;
+}
+</style>
+
 # Die Fakten-Datenbank
 
-TODO: Graph zur Veranschaulichung
+<img src="/sample-graph.png" class="rounded" />
 
 ---
 
@@ -226,14 +234,7 @@ var age2 = Datahike.q(findJaneDoesAgeQuery, db1); // immer noch 25
 
 ---
 
-<style>
-code {
-  font-size: 1.5em;
-}
-</style>
-
 # Die Fakten-Datenbank
-
 
 #### Wie füge ich einen Fakt hinzu?
 
@@ -577,7 +578,8 @@ code {
 - [Learn Datalog Today](http://learndatalogtoday.org)
 - [Datomic](https://www.datomic.com/)
 - [Datahike](https://github.com/replikativ/datahike), [Datalevin](https://github.com/juji-io/datalevin) (Datomic-ähnliche Open Source Datenbanken)
-- [DataScript](https://github.com/tonsky/DataScript) (In-Memory DB fürs Frontend)
+- [XTDB](https://xtdb.com/index.html) (Graph- und relationale Datenbank in einem, mit Datalog Support)
+- [DataScript](https://github.com/tonsky/DataScript) (In-Memory Datalog DB fürs Frontend)
 - [Using Datahike's Java API to build a web application](https://lambdaforge.io/2020/05/25/java-api.html)
 - [Rich Hickey - The Value of Values](https://www.youtube.com/watch?v=-6BsiVyC1kM) (Talk über funktionale Philosophie hinter Datomic)
 
