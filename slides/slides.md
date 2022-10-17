@@ -1,23 +1,20 @@
 ---
 theme: default
 layout: cover
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
 highlighter: shiki
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: Presentation on Datomic and Datalog for the DevCord Discord server
-# persist drawings in exports and build
 drawings:
   persist: false
-# use UnoCSS
 css: unocss
+title: Kein SQL Mehr
 ---
 
 # Kein SQL Mehr
 
 Eine Einführung in Datomic-Style-Datenbanken
+
 
 ---
 
@@ -585,6 +582,8 @@ code {
 
 ---
 layout: statement
+background: https://source.unsplash.com/collection/94734566/1920x1080
 ---
+
 # Danke für eure Aufmerksamkeit
 ## Gibt es Fragen?
