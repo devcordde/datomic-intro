@@ -1,6 +1,23 @@
 (ns comment-system
   (:require [datahike.api :as d]))
 
+(comment
+  "Schemadefinition: Eine Liste von Entities, die Attribute beschreiben
+
+   :db/ident - Name des Attributs
+   :db/valueType - Datentyp
+   :db/cardinality - Kardinalität (entweder `one` oder `many`)
+   :db/unique - Falls Werte dieses Attributs einzigartig sein müssen
+
+   Ein Schema ist nichts anderes als eine Reihe von Transaktionsdaten wie sonst auch - genauso könnte man für ein Attribut auch..."
+
+  [[:db/add "new-attr" :db/ident :post/id]
+   [:db/add "new-attr" :db/valueType :db.type/uuid]
+   ...]
+
+  "...schreiben. Attribute sind also selbst Entities mit speziellen, built-in Attributen, die Metadaten definieren.")
+
+
 (def schema
   [;; Post entity
    {:db/ident :post/id
@@ -55,6 +72,14 @@
    {:db/ident :user/password-hash
     :db/valueType :db.type/string
     :db/cardinality :db.cardinality/one}])
+
+(comment
+  "`create-user` ist eine Funktion, die Informationen über einen User entgegennimmt (`user-map`) und diesen nur eine zufällige ID zuweist. `assoc` macht dabei nur folgendes:"
+
+     (assoc #:user {:name "johnny", :avatar-url "http://example.com"} :user/id (random-uuid))
+  => #:user {:name "johnny", :avatar-url "http://example.com", :id #uuid "a359b25b-cc74-4d9f-b220-db831d2a1e8e"}
+
+  "Beim Rückgabewert von `create-user` handelt es sich um eine Transaktion (pure Daten!), die man dann an die `transact` Funktion geben kann.")
 
 (defn create-user [user-map]
   [(assoc user-map :user/id (random-uuid))])
