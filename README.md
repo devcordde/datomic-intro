@@ -2,6 +2,10 @@
 
 Dieses Repository enthält Slides und Beispiele für meinen Talk "Kein SQL mehr - Eine Einführung in Datomic-Style-Datenbanken".
 
+- Der Unterordner [slides](./slides) enthält die Präsentation, in der README dort steht auch wie man sie bei sich lokal startet.
+- In [example-code](./example-code) befindet sich kommentierter Beispielcode, der zeigen soll, wie Datenbank-Code so aussieht.\
+  Es handelt sich dabei hauptsächlich um reine Deklaration von Datenstrukturen, die auch ohne Erfahrung in der Programmierung mit Clojure verständlich sein sollten.
+
 ## Licensing
 
 Not all works in this repository are owned by me (JohnnyJayJay). The work that *is* owned by me is licensed under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0) and therefore dedicated to the public domain. This work includes the [slide contents](./slides/slides.md) and the [example code](./example-code).
