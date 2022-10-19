@@ -1,4 +1,5 @@
 ---
+license: CC0 1.0
 theme: default
 layout: cover
 background: https://source.unsplash.com/collection/94734566/1920x1080

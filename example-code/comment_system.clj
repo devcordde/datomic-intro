@@ -1,3 +1,4 @@
+;; LICENSE: CC0 1.0
 (ns comment-system
   (:require [datahike.api :as d]))
 
