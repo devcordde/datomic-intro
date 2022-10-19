@@ -571,14 +571,15 @@ code {
 
 # Weiterführend
 
-- [Rich Hickey - Datomic](https://www.youtube.com/watch?v=9TYfcyvSpEQ) (Talk über Architektur und Implementation von Datomic)
+- [Kommentierter Beispiel-Code](https://github.com/devcordde/datomic-intro/blob/main/example-code)
 - [Learn Datalog Today](http://learndatalogtoday.org)
+- [Rich Hickey - Datomic](https://www.youtube.com/watch?v=9TYfcyvSpEQ) (Architektur & Implementation von  Datomic)
 - [Datomic](https://www.datomic.com/)
 - [Datahike](https://github.com/replikativ/datahike), [Datalevin](https://github.com/juji-io/datalevin) (Datomic-ähnliche Open Source Datenbanken)
 - [XTDB](https://xtdb.com/index.html) (Graph- und relationale Datenbank in einem, mit Datalog Support)
 - [DataScript](https://github.com/tonsky/DataScript) (In-Memory Datalog DB fürs Frontend)
 - [Using Datahike's Java API to build a web application](https://lambdaforge.io/2020/05/25/java-api.html)
-- [Rich Hickey - The Value of Values](https://www.youtube.com/watch?v=-6BsiVyC1kM) (Talk über funktionale Philosophie hinter Datomic)
+- [Rich Hickey - The Value of Values](https://www.youtube.com/watch?v=-6BsiVyC1kM)
 
 ---
 layout: statement
@@ -587,3 +588,8 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 
 # Danke für eure Aufmerksamkeit
 ## Gibt es Fragen?
+
+<br>
+
+### (Slides zu finden auf [**devcord.club/datomic-intro**](https://devcord.club/datomic-intro))
+
