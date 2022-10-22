@@ -562,7 +562,7 @@ code {
 ;; Rules
 [[(child ?outer ?c)
    [?outer :bag/children ?c]]
-  [(child ?outer ?c)
+ [(child ?outer ?c)
    [?outer :bag/children ?nc]
    [?nc :bag.child/bag ?next]
    (child ?next ?c)]]
